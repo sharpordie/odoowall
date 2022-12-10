@@ -1,6 +1,6 @@
 # <samp>ODOOWALL</damp>
 
-Unofficial desktop wallpapers for any Odoo developers or enthusiasts.
+Unofficial wallpapers for any Odoo enthusiasts.
 
 ## <samp>PREVIEW</damp>
 
