@@ -2,7 +2,7 @@
 
 Unofficial wallpapers for any Odoo enthusiasts.
 
-## <samp>PREVIEW</damp>
+## <samp>OVERVIEW</damp>
 
 ### Corner variant
 
