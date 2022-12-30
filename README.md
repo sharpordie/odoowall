@@ -15,3 +15,26 @@ Unofficial wallpapers for any Odoo enthusiasts.
 ### Middle variant
 
 <a href="src/odoo-middle-bright.png"><img src="src/odoo-middle-bright.svg" width="49.25%"/></a><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png" width="1.5%"/><a href="src/odoo-middle-darken.png"><img src="src/odoo-middle-darken.svg" width="49.25%"/></a>
+
+## <samp>GUIDANCE</damp>
+
+### Update wallpaper on macOS
+
+```shell
+address="https://github.com/sharpordie/odoowall/raw/main/src/odoo-corner-bright.png"
+picture="$HOME/Pictures/Backgrounds/odoo-corner-bright.png"
+mkdir -p "$(dirname $picture)" && curl -Ls "$address" -o "$picture"
+osascript -e "tell application \"System Events\" to tell every desktop to set picture to \"$picture\""
+```
+
+### Update wallpaper on Ubuntu
+
+```shell
+
+```
+
+### Update wallpaper on Windows
+
+```shell
+
+```
