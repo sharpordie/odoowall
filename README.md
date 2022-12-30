@@ -18,7 +18,7 @@ Unofficial wallpapers for any Odoo enthusiasts.
 
 ## <samp>GUIDANCE</damp>
 
-### Update wallpaper on macOS
+### Set Wallpaper on macOS
 
 ```shell
 address="https://github.com/sharpordie/odoowall/raw/main/src/odoo-corner-bright.png"
@@ -27,13 +27,19 @@ mkdir -p "$(dirname $picture)" && curl -Ls "$address" -o "$picture"
 osascript -e "tell application \"System Events\" to tell every desktop to set picture to \"$picture\""
 ```
 
-### Update wallpaper on Ubuntu
+### Set Wallpaper on Ubuntu
 
 ```shell
-
+address="https://github.com/sharpordie/odoowall/raw/main/src/odoo-corner-bright.png"
+picture="$HOME/Pictures/Backgrounds/odoo-corner-bright.png"
+mkdir -p "$(dirname $picture)" && curl -Ls "$address" -o "$picture"
+gsettings set org.gnome.desktop.background picture-uri "file://$picture"
+gsettings set org.gnome.desktop.background picture-options "zoom"
+gsettings set org.gnome.desktop.screensaver picture-uri "file://$picture"
+gsettings set org.gnome.desktop.screensaver picture-options "zoom"
 ```
 
-### Update wallpaper on Windows
+### Set Wallpapers on Windows
 
 ```shell
 
