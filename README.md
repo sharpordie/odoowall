@@ -4,15 +4,15 @@ Unofficial wallpapers for any Odoo enthusiasts.
 
 ## <samp>OVERVIEW</damp>
 
-### Corner variant
+### Corner Variant
 
 <a href="src/odoo-corner-bright.png"><img src="src/odoo-corner-bright.svg" width="49.25%"/></a><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png" width="1.5%"/><a href="src/odoo-corner-darken.png"><img src="src/odoo-corner-darken.svg" width="49.25%"/></a>
 
-### Higher variant
+### Higher Variant
 
 <a href="src/odoo-higher-bright.png"><img src="src/odoo-higher-bright.svg" width="49.25%"/></a><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png" width="1.5%"/><a href="src/odoo-higher-darken.png"><img src="src/odoo-higher-darken.svg" width="49.25%"/></a>
 
-### Middle variant
+### Middle Variant
 
 <a href="src/odoo-middle-bright.png"><img src="src/odoo-middle-bright.svg" width="49.25%"/></a><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png" width="1.5%"/><a href="src/odoo-middle-darken.png"><img src="src/odoo-middle-darken.svg" width="49.25%"/></a>
 
@@ -39,7 +39,7 @@ gsettings set org.gnome.desktop.screensaver picture-uri "file://$picture"
 gsettings set org.gnome.desktop.screensaver picture-options "zoom"
 ```
 
-### Set Wallpapers on Windows
+### Set Wallpaper on Windows
 
 ```shell
 
