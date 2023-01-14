@@ -20,7 +20,7 @@ Unofficial wallpapers for any Odoo enthusiasts.
 
 ```shell
 address="https://github.com/sharpordie/odoowall/raw/main/src/odoo-corner-bright.png"
-picture="$HOME/Pictures/Backgrounds/odoo-corner-bright.png"
+picture="$HOME/Pictures/Backgrounds/$(basename "$address")"
 mkdir -p "$(dirname $picture)" && curl -Ls "$address" -o "$picture"
 osascript -e "tell application \"System Events\" to tell every desktop to set picture to \"$picture\""
 ```
@@ -29,7 +29,7 @@ osascript -e "tell application \"System Events\" to tell every desktop to set pi
 
 ```shell
 address="https://github.com/sharpordie/odoowall/raw/main/src/odoo-corner-bright.png"
-picture="$HOME/Pictures/Backgrounds/odoo-corner-bright.png"
+picture="$HOME/Pictures/Backgrounds/$(basename "$address")"
 mkdir -p "$(dirname $picture)" && curl -Ls "$address" -o "$picture"
 gsettings set org.gnome.desktop.background picture-uri "file://$picture"
 gsettings set org.gnome.desktop.background picture-options "zoom"
